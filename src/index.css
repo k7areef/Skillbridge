@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+@theme {
+  /* Orange Shades */
+  --color-orange-50: #ff9500;
+  --color-orange-70: #ffbf66;
+  --color-orange-75: #ffca80;
+  --color-orange-80: #ffd499;
+  --color-orange-90: #ffeacc;
+  --color-orange-95: #fff4e5;
+  --color-orange-97: #fff9f0;
+  --color-orange-99: #fffdfa;
+  /* White Shades */
+  --color-white-90: #e4e4e7;
+  --color-white-95: #f1f1f3;
+  --color-white-97: #f7f7f8;
+  --color-white-99: #fcfcfd;
+  /* Grey Shades */
+  --color-grey-10: #191919;
+  --color-grey-15: #262626;
+  --color-grey-20: #333333;
+  --color-grey-30: #4c4c4d;
+  --color-grey-35: #59595a;
+  --color-grey-40: #656567;
+  --color-grey-60: #98989a;
+  --color-grey-70: #b3b3b3;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+p {
+  font-size: 14px;
+  color: var(--color-grey-30);
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}

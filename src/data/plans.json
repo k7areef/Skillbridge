@@ -1,0 +1,54 @@
+{
+    "title": "Our Pricing",
+    "description": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    "plans": [
+        {
+            "id": 1,
+            "name": "Free Plan",
+            "price": {
+                "monthly": "$0",
+                "yearly": "$0"
+            },
+            "featuresIds": [1,2,3,4,5]
+        },
+        {
+            "id": 2,
+            "name": "Pro Plan",
+            "price": {
+                "monthly": "$79",
+                "yearly": "$150"
+            },
+            "featuresIds": [1,2,3,4,5,6,7]
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "name": "Access to selected free courses."
+        },
+        {
+            "id": 2,
+            "name": "Limited course materials and resources."
+        },
+        {
+            "id": 3,
+            "name": "Basic community support."
+        },
+        {
+            "id": 4,
+            "name": "No certification upon completion."
+        },
+        {
+            "id": 5,
+            "name": "Ad-supported platform."
+        },
+        {
+            "id": 6,
+            "name": "Access to exclusive Pro Plan community forums."
+        },
+        {
+            "id": 7,
+            "name": "Early access to new courses and updates."
+        }
+    ]
+}
