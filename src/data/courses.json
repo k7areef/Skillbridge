@@ -1,5 +1,395 @@
 {
     "title": "Our Courses",
     "description": "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
-    "courses": []
+    "courses": [
+        {
+            "id": 1,
+            "banner": "banner",
+            "title": "Web Design Fundamentals",
+            "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+            "level": "Beginner",
+            "duration": "4 Weeks",
+            "teacher": "By John Smith",
+            "curriculum": [
+                {
+                    "id": 1,
+                    "title": "Introduction to HTML",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Styling with CSS",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Introduction to Responsive Design",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Design Principles for Web",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Building a Basic Website",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "banner": "banner",
+            "title": "UI/UX Design",
+            "description": "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
+            "level": "Intermediate",
+            "duration": "6 Weeks",
+            "teacher": "By Emily Johnson",
+            "curriculum": [
+                {
+                    "id": 1,
+                    "title": "Introduction to UI/UX Design",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "Understanding UI/UX Design Principles",
+                            "duration": "45 Minutes"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Importance of User-Centered Design",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 3,
+                            "title": "The Role of UI/UX Design in Product Development",
+                            "duration": "45 Minutes"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "User Research and Personas",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "Conducting User Research and Interviews",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Analyzing User Needs and Behavior",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Creating User Personas and Scenarios",
+                            "duration": "45 Minutes"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Wireframing and Prototyping",
+                    "lessons": [
+                       {
+                            "id": 1,
+                            "title": "Introduction to Wireframing Tools and Techniques",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Creating Low-Fidelity Wireframes",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Prototyping and Interactive Mockups",
+                            "duration": "1 Hour"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Visual Design and Branding",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "Color Theory and Typography in UI Design",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Visual Hierarchy and Layout Design",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Creating a Strong Brand Identity",
+                            "duration": "45 Minutes"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Usability Testing and Iteration",
+                    "lessons": [
+                         {
+                            "id": 1,
+                            "title": "Usability Testing Methods and Techniques",
+                            "duration": "1 Hour"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Analyzing Usability Test Results",
+                            "duration": "45 Minutes"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Iterating and Improving UX Designs",
+                            "duration": "45 Minutes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "banner": "banner",
+            "title": "Mobile App Development",
+            "description": "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
+            "level": "Intermediate",
+            "duration": "8 Weeks",
+            "teacher": "By David Brown",
+            "curriculum": [
+                {
+                    "id": 1,
+                    "title": "Introduction to Mobile App Development",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Fundamentals of Swift Programming (iOS)",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Fundamentals of Kotlin Programming (Android)",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Building User Interfaces",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "App Deployment and Testing",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "banner": "banner",
+            "title": "Graphic Design for Beginners",
+            "description": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
+            "level": "Beginner",
+            "duration": "10 Weeks",
+            "teacher": "By Sarah Thompson",
+            "curriculum": [
+                {
+                    "id": 1,
+                    "title": "Introduction to Graphic Design",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Typography and Color Theory",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Layout Design and Composition",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Image Editing and Manipulation",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Designing for Print and Digital Media",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "banner": "banner",
+            "title": "Front-End Web Development",
+            "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
+            "level": "Intermediate",
+            "duration": "10 Weeks",
+            "teacher": "By Michael Adams",
+            "curriculum": [
+               {
+                    "id": 1,
+                    "title": "HTML Fundamentals",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "CSS Styling and Layouts",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "JavaScript Basics",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "JavaScript Basics",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Introduction to Bootstrap and React",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "title",
+                            "duration": "duration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "banner": "banner",
+            "title": "Advanced JavaScript",
+            "description": "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
+            "level": "Advance",
+            "duration": "6 Weeks",
+            "teacher": "By Jennifer Wilson"
+        }
+    ]
 }
