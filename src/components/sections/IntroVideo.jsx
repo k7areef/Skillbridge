@@ -1,4 +1,3 @@
-import introVideo from "@assets/videos/intro-video.mp4";
 import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -23,7 +22,7 @@ function IntroVideo() {
                 <div className="content-wrapper aspect-video relative">
                     <video
                         ref={videoRef}
-                        src={introVideo}
+                        src={"/videos/intro-video.mp4"}
                         controls={false}
                         loop={true}
                         muted={true}
