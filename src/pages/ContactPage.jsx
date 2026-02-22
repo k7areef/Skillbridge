@@ -1,7 +1,9 @@
 import ContactForm from "@components/sections/ContactForm";
 import Overview from "@components/sections/Overview";
+import useChangeTitle from "hooks/useChangeTitle";
 
 function ContactPage() {
+    useChangeTitle("Contact");
     return (
         <div className="contact-page">
             <main>
