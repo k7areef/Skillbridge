@@ -19,8 +19,10 @@ Skillbridge is a modern, responsive e-learning platform built with the latest we
 The project follows a clean and modular architecture:
 
 ```bash
+public/
+├── videos/ # Videos Media
 src/
-├── assets/ # Media files (Icons, Images, Videos)
+├── assets/ # Media files (Icons, Images)
 ├── components/
 │ ├── common/ # Reusable components (Buttons, Inputs)
 │ ├── layout/ # Wrapper components (Navbar, Footer)
