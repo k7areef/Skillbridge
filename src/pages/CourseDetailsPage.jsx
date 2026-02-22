@@ -10,8 +10,10 @@ function CourseDetailsPage() {
     const { title, description } = course;
     return (
         <div className="course-details-page">
-            <Overview title={title} description={description} />
-            <CourseDetails />
+            <main>
+                <Overview title={title} description={description} />
+                <CourseDetails />
+            </main>
         </div>
     )
 }

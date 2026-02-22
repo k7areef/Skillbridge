@@ -4,8 +4,10 @@ import Overview from "@components/sections/Overview";
 function CoursesPage() {
     return (
         <div className="courses-page">
-            <Overview page="courses" />
-            <Courses />
+            <main>
+                <Overview page="courses" />
+                <Courses />
+            </main>
         </div>
     )
 }

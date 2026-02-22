@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Email",
+        "icon": "email",
+        "value": "mailto:kh3reef@gmail.com",
+        "label": "kh3reef@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Phone",
+        "icon": "phone",
+        "value": "tel:+20 1122124968",
+        "label": "+20 1122124968"
+    },
+    {
+        "id": 3,
+        "name": "Location",
+        "icon": "location",
+        "value": "https://www.google.com/maps",
+        "label": "Somewhere in the World"
+    }
+]

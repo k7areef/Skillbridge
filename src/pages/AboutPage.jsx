@@ -6,10 +6,12 @@ import Overview from "@components/sections/Overview";
 function AboutPage() {
     return (
         <div className="about-page">
-            <Overview page="about" />
-            <Achievements />
-            <OurGoals />
-            <CTA />
+            <main>
+                <Overview page="about" />
+                <Achievements />
+                <OurGoals />
+                <CTA />
+            </main>
         </div>
     )
 }

@@ -3,7 +3,9 @@ import Testimonials from "@components/sections/Testimonials";
 function LoginPage() {
     return (
         <div className="login-page">
-            <Testimonials />
+            <main>
+                <Testimonials />
+            </main>
         </div>
     )
 }

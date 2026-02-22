@@ -9,13 +9,15 @@ import Testimonials from "@components/sections/Testimonials";
 function HomePage() {
     return (
         <div className="home-page">
-            <HeroSection />
-            <IntroVideo />
-            <Benefies />
-            <OurCourses />
-            <Testimonials />
-            <Plans page="home" />
-            <Faqs />
+            <main>
+                <HeroSection />
+                <IntroVideo />
+                <Benefies />
+                <OurCourses />
+                <Testimonials />
+                <Plans page="home" />
+                <Faqs />
+            </main>
         </div>
     )
 }

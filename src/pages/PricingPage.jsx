@@ -5,9 +5,11 @@ import Plans from "@components/sections/Plans";
 function PricingPage() {
     return (
         <div className="pricing-page">
-            <Overview page="pricing" />
-            <Plans page="pricing" />
-            <Faqs />
+            <main>
+                <Overview page="pricing" />
+                <Plans page="pricing" />
+                <Faqs />
+            </main>
         </div>
     )
 }
