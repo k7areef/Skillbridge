@@ -1,5 +1,5 @@
 import Benefies from "@components/sections/Benefies";
-import Courses from "@components/sections/Courses";
+import OurCourses from "@components/sections/OurCourses";
 import Faqs from "@components/sections/Faqs";
 import HeroSection from "@components/sections/HeroSection";
 import IntroVideo from "@components/sections/IntroVideo";
@@ -12,7 +12,7 @@ function HomePage() {
             <HeroSection />
             <IntroVideo />
             <Benefies />
-            <Courses />
+            <OurCourses />
             <Testimonials />
             <Plans page="home" />
             <Faqs />
