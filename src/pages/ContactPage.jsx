@@ -1,6 +1,6 @@
 import ContactForm from "@components/sections/ContactForm";
 import Overview from "@components/sections/Overview";
-import useChangeTitle from "hooks/useChangeTitle";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function ContactPage() {
     useChangeTitle("Contact");

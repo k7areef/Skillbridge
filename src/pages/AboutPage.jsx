@@ -2,7 +2,7 @@ import Achievements from "@components/sections/Achievements";
 import CTA from "@components/sections/CTA";
 import OurGoals from "@components/sections/OurGoals";
 import Overview from "@components/sections/Overview";
-import useChangeTitle from "hooks/useChangeTitle";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function AboutPage() {
     useChangeTitle("About");

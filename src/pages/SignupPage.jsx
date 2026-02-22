@@ -1,5 +1,5 @@
 import Testimonials from "@components/sections/Testimonials";
-import useChangeTitle from "hooks/useChangeTitle";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function SignupPage() {
     useChangeTitle("Signup");

@@ -1,7 +1,7 @@
 import CourseDetails from "@components/sections/CourseDetails";
 import Overview from "@components/sections/Overview";
 import data from "@data/courses.json";
-import useChangeTitle from "hooks/useChangeTitle";
+import useChangeTitle from "@hooks/useChangeTitle";
 import { useParams } from "react-router-dom";
 
 function CourseDetailsPage() {

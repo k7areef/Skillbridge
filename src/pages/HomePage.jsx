@@ -5,7 +5,7 @@ import HeroSection from "@components/sections/HeroSection";
 import IntroVideo from "@components/sections/IntroVideo";
 import Plans from "@components/sections/Plans";
 import Testimonials from "@components/sections/Testimonials";
-import useChangeTitle from "hooks/useChangeTitle";
+import useChangeTitle from "@hooks/useChangeTitle";
 
 function HomePage() {
     useChangeTitle("Home");
