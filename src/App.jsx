@@ -9,12 +9,15 @@ import LoginPage from "@pages/LoginPage";
 import PricingPage from "@pages/PricingPage";
 import SignupPage from "@pages/SignupPage";
 // Common Components:
+import TopBanner from "@components/layout/TopBanner";
 import Navigation from "@components/layout/Navigation";
 import Footer from "@components/layout/Footer";
 
 function App() {
   return (
     <div className="App bg-white-97 text-grey-15 min-h-screen">
+      {/* Top Banner */}
+      <TopBanner />
       {/* Navigation Bar */}
       <Navigation />
       {/* Routes */}
