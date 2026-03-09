@@ -117,7 +117,7 @@ function SignupPage() {
                                         <div className="line h-px bg-white-95 flex-1"></div>
                                     </div>
                                     {/* Social */}
-                                    <div className="social flex items-center gap-3">
+                                    <div className="social flex md:items-center gap-3 max-md:flex-col">
                                         <Button
                                             variant="white"
                                             className="w-full"
